@@ -1,4 +1,4 @@
-@import "../fonts.css"; /*подключаю шрифты */
+@import "../fonts/fonts.css"; /*подключаю шрифты */
 .wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
