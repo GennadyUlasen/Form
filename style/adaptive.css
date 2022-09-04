@@ -1,0 +1,11 @@
+@media (max-width: 680px){
+    .wrapper-name {
+        display: block;
+    }
+    .content {
+        min-width: 0;
+    }
+    .contact-form {
+        width: 100%;
+    }
+}

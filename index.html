@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/adaptive.css">
+    <link rel="stylesheet" href="/style/form.css">
+    <title>TEST</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content"><p>Sign up</p></div>
+        <form class="contact-form" method="post" name="contact-form">
+            <div class="wrapper-form">
+                <div class = "heading">
+                    <h1>New user?</h1>
+                    <p>Use the form below to create your account.</p>
+                </div>
+                <div class="wrapper-name">
+                    <div class="name">
+                        <p>First Name</p>
+                        <input type="text" name="name" placeholder="Alice">
+                    </div>
+                    <div class="name">
+                        <p>Last Name</p>
+                        <input type="text" name="name" placeholder="Miller">
+                    </div>
+                </div>
+                <div class="wrapper-nationality wrapper-name">
+                    <div class="name">
+                        <p>Nationality</p>
+                        <select name="name">
+                            <option value="1" selected>American</option>
+                        </select>
+                    </div>
+                    <div class="name">
+                        <p>E-mail</p>
+                        <input type="email" name="name" id="email" placeholder="alice.miller@yahoo.com">
+                        <label for="email"></label>
+                    </div>
+                </div>
+
+                <div class="wrapper-date wrapper-name">
+                    <div class="name">
+                        <p>Date of Birth</p>
+                        <div class="wrapper-date">
+                            <select name="name" class="day">
+                                <option value="1" selected>21</option>
+                            </select>
+                            <select name="name" class="month">
+                                <option value="1" selected>December</option>
+                            </select>
+                            <select name="name" class="year">
+                                <option value="1" selected>1995</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="name radio">
+                        <p>Gender</p>
+                        <div class="radio-input">
+                            <label><input type="radio" name="name" checked><span></span>Male</label>
+                            <label><input type="radio" name="name" ><span></span>Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-name">
+                    <div class="name">
+                        <p>Password</p>
+                        <input type="password" name="name" class="password">
+                    </div>
+                    <div class="name">
+                        <p>Confirm Password</p>
+                        <input type="text" name="name" class="password">
+                    </div>
+                </div>
+                <div class="footer">
+                    <p class="text">Have an account? <a href="#">Login</a></p>
+                    <button>Complete Signup</button>
+                </div> 
+            </div>
+        </form>
+    </div>
+</body>
+</html>

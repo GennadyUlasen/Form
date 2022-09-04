@@ -1,0 +1,179 @@
+.contact-form {
+    min-width: 528px;
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.wrapper-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 39px 22px 33px 21px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    height: 100%;
+}
+.heading :first-child{
+    font-family: "WorkSans", sans-serif;
+    font-size: 22px;
+    line-height: 25.78px;
+    letter-spacing: -0.46px;
+}
+.heading :last-child{
+    font-family: "WorkSans", sans-serif;
+    font-size: 14px;
+}
+.wrapper-name{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "WorkSans", sans-serif;
+    color: #111111;
+}
+.wrapper-name .name{
+    position: relative;
+    margin-right: 15px;
+    padding-top: 20px;
+    width: 100%;
+}
+.name input, .name select{
+    border: none;
+    border-bottom: 1px solid #F2F2F2;
+    height: 16px;
+    width: 100%;
+}
+.name ::-webkit-input-placeholder {
+    font-family: "WorkSans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color:#111111;
+}
+.name ::-moz-placeholder {
+    font-family: "WorkSans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color:#111111;
+}
+.name :-ms-input-placeholder {
+    font-family: "WorkSans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color:#111111;
+}
+.name ::-ms-input-placeholder {
+    font-family: "WorkSans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color:#111111;
+}
+.name ::placeholder {
+    font-family: "WorkSans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color:#111111;
+}
+#email + label{
+    display: inline-block;
+    position: relative;
+}
+#email + label::before {
+    content: '';
+    width: 11px;
+    height: 8px;
+    background-color: white;
+    position: absolute;
+    left: 218px;
+    top: -31px;
+    -webkit-transform: rotate(-225deg);
+        -ms-transform: rotate(-225deg);
+            transform: rotate(-225deg);
+    z-index: 1;
+}
+#email + label::after {
+    content: '';
+    width: 11px;
+    height: 8px;
+    background-color: #5A61ED;;
+    position: absolute;
+    left: 218px;
+    top: -29px;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+.name p{
+    padding: 0 0 4px 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7C7C7C;
+}
+.wrapper-date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+.wrapper-date .day {
+    -ms-flex-preferred-size: 135px;
+        flex-basis: 135px;
+}
+.radio-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.radio-input input {
+    display: none;
+    width: auto;
+    height: 12px;
+    margin: 0 6px 0 0;
+}
+.radio-input label {
+    position: relative;
+    margin-right: 15px;
+    font-family: "WorkSans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #111111;
+}
+.radio-input span {
+    position: relative;
+    display: inline-block;
+    margin-right: 6px;
+    width: 12px;
+    height: 12px;
+    border: 0.7px solid #5A61ED;
+    border-radius: 50%;
+}
+.radio-input input:checked + span::before {
+    content: '';
+    position: absolute;
+    left: 3.1px;
+    top: 2.5px;
+    background-color: #5A61ED;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+.wrapper-name .password {
+    font-family: "PTSans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #111111;
+    caret-color: #5A61ED;
+    text-align: center;
+}
+.password:hover {
+    border: 1px solid  #5A61ED;
+}
